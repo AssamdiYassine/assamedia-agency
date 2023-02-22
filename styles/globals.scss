@@ -1,0 +1,74 @@
+
+ 
+@font-face {
+  font-family: 'Poppins';
+  src: url('../styles/font/Poppins-Regular.ttf');
+  src: url('../styles/font/Poppins-Bold.ttf');
+  src: url('../styles/font/Poppins-Medium.ttf');
+  src: url('../styles/font/Poppins-SemiBold.ttf');
+  // font-style: normal;
+  font-family: 'Inter';
+  src: url('../styles/font/Inter-VariableFont_slnt\,wght.ttf');
+}
+$first: #4D2AEE;
+$second: #121212;
+$Third: #EDEDED;
+
+
+
+@import "./header.scss";
+@import "./home.scss";
+@import "./footer.scss";
+
+
+:root{
+ 
+   
+  
+  background: rgb(255,255,255);  
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(217, 199, 251, 0.819) 25%, rgba(219, 152, 252, 0.467) 50%, rgba(213, 176, 247, 0.532) 75%, rgba(255,255,255,1) 100%);
+}
+body{
+    margin: 0;
+}
+
+.container  {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1400px){
+  .container {
+  max-width: 1320px;
+}
+}
+
+@media (min-width: 1200px)and (max-width: 1400px) {
+  .container {
+      max-width: 1140px;
+  }
+}
+
+@media (min-width: 992px)and (max-width: 1200px){
+  .container  {
+      max-width: 960px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+  .container {
+      max-width: 720px;
+  }
+}
+
+@media (min-width: 576px ) and (max-width: 768px){
+  .container {
+      max-width: 540px;
+  }
+}
+

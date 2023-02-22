@@ -1,0 +1,320 @@
+
+
+.session-1 {
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    div:first-child {
+        margin-left: 30px;
+
+        img {
+            margin-left: -30px;
+
+        }
+
+
+        span {
+            font-size: 19px;
+            display: block;
+            font-family: Poppins;
+
+        }
+
+        h1 {
+            font-size: 52px;
+            margin: 0;
+            font-family: Poppins;
+
+            span {
+                font-size: 52px;
+                color: $first;
+                display: inline;
+            font-family: Poppins;
+
+            }
+        }
+
+        p {
+            font-size: 22px;
+            margin: 0;
+            font-family: Poppins;
+
+
+        }
+
+        .buttomBlock {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+
+            button {
+                width: 200px;
+
+                background-color: #4D2AEE;
+                color: #fff;
+                border-radius: 50px;
+                border: none;
+                font-size: 18px;
+                font-weight: 700;
+            font-family: Poppins;
+
+                padding: 10px 25px;
+                display: block;
+                text-align: center;
+                align-items: center;
+            }
+
+            h3 {
+                padding-left: 20px;
+                padding-right: 20px;
+            font-family: Poppins;
+
+            }
+
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: rgb(40, 230, 147);
+                background: linear-gradient(180deg, rgba(40, 230, 147, 1) 0%, rgba(45, 229, 147, 1) 0%);
+                border-radius: 100%;
+                margin-right: 10px;
+                width: 50px;
+                height: 50px;
+
+                .image {
+                    margin: 0;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+.session-2 {
+
+    background: rgb(186, 0, 255);
+
+    background: linear-gradient(90deg, rgba(186, 0, 255, 1) 0%, rgba(94, 66, 221, 0.6181066176470589) 100%);
+    opacity: 0.7;
+    margin-bottom: 30px;
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-image: url('../public/shape.svg');
+        height: 80px;
+        width: 100%;
+
+        h1 {
+            font-size: 45px;
+            color: #FAFAFA;
+            font-family: Poppins;
+
+
+
+
+        }
+
+        &:hover {
+
+            h1 {
+                color: #000000;
+            }
+        }
+
+    }
+
+
+}
+
+.session-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    .serviceSession{
+        display: flex;
+
+    
+    div {
+        width: 293.31px;
+
+
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background: rgb(77, 42, 238);
+            background: linear-gradient(288deg, rgba(77, 42, 238, 1) 0%, rgba(39, 21, 119, 1) 100%);
+            border-radius: 100%;
+            margin-right: 10px;
+            width: 60px;
+            height: 60px;
+
+
+        }
+
+        h5 {
+            font-size: 25px;
+            margin-top: 15px;
+            margin-bottom: 0;
+            font-family: Poppins;
+
+        }
+
+        p {
+            font-size: 20px;
+            font-family: Poppins;
+
+        }
+        .graphic{
+            margin-top: 25%;
+        }
+
+
+    }
+}
+div{
+    width: 390px;
+
+    span{
+        color: $first;
+        font-size:18px ;
+        font-family: Poppins;
+
+    }
+    h1{
+        font-size: 65px;
+        font-weight: bold;
+        margin: 0;
+        font-family: Poppins;
+
+    }
+    p{
+        font-size: 23px;
+        font-family: Poppins;
+
+    }
+    button{
+        width: 200px;
+
+        background-color: #4D2AEE;
+        color: #fff;
+        border-radius: 50px;
+        border: none;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 10px 25px;
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+
+}
+
+.session-4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+div{
+
+
+span{
+    color: $first;
+    font-family: Inter;
+}
+    h1{
+        font-size: 41px;
+        font-weight: bold;
+        font-family: Inter;
+    }
+
+
+
+div{
+    margin-top: 10px;
+display: flex;
+justify-content: space-around;
+.check{
+
+         
+        display: block;
+justify-content: center;
+align-items: center;
+text-align: center;
+        width: 163.62px;
+        height: 127.66px;
+        background-color: #4d2aee;
+        border-radius: 10%;
+        margin-right: 10px;
+
+        img{
+            position: relative;
+            top: -50px;
+            right: -80px;
+        
+        }
+        h3,p{
+            margin: 0;
+            position: relative;
+            top: -90px;
+            color: #fff;
+        }
+        h3{
+            font-size: 55px;
+            font-family: Inter;
+        }
+
+    }
+        .love{
+            display: block;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+                    width: 163.62px;
+                    height: 127.66px;
+                    background-color: #4d2aee;
+                    border-radius: 10%;
+                    margin-right: 10px;
+
+
+        
+        .image2{
+            position: relative;
+            top: -36px;
+            right: -80px;
+        }
+        h3,p{
+            margin: 0;
+            position: relative;
+            top: -133px;
+            color: #fff;
+        }
+        h3{
+            font-size: 55px;
+            font-family: Inter;
+        }
+    }
+    
+    }
+
+}    
+
+}
+ 
+
+
+ 
